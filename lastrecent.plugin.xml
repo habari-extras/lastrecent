@@ -3,12 +3,17 @@
 <name>Last.fm Recent Tracks</name>
 <license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license> 
 <author url="http://skippy.net/">Scott Merrill</author>
-<version>1.2</version>
+<version>1.3</version>
 <url>http://skippy.net/</url>
+<guid>eeaf6421-abca-4999-95d0-512d328d2462</guid>
 <description><![CDATA[Retrieves recently played track names from last.fm]]></description>
 <copyright>2009</copyright>
 	<help>
-		<value><![CDATA[Configure, then use <code>&lt;?php $theme-&gt;lastrecent(); ?&gt;</code> in your theme.
+		<value><![CDATA[<p>There are two ways to use this plugin:
+		<ol>
+			<li><h4>Legacy Method:</h4><p>Configure as you would a normal plugin, then use <code>&lt;?php $theme-&gt;lastrecent(); ?&gt;</code> in your theme where you would like the Last.fm list of tracks to appear.</p></li>
+			<li><h4>Blocks:</h4><p>Add the block to the appropriate area in your theme and configure as you would a normal block</p></li>
+		</ol>
 		]]></value>
 	</help>
 </pluggable>
